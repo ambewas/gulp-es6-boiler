@@ -4,7 +4,8 @@
   "description": "a simple boilerplate with gulp and es6",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "cd public && http-server -a localhost -p 8000 -c-1"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-babel": "^6.1.2",
     "gulp-clean": "^0.3.2",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "http-server": "^0.10.0"
   }
 }
